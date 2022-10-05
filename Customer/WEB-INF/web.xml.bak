@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<!-- Written by Sukhwinder Singh (ssruprai@hotmail.com-->
+<web-app>
+	
+	<servlet>
+        <servlet-name>Key1</servlet-name>
+        <servlet-class>Keywords</servlet-class>
+    </servlet>	
+	
+	<servlet-mapping>
+        <servlet-name>Key1</servlet-name>
+        <url-pattern>/Key</url-pattern>
+    </servlet-mapping>
+
+
+	<servlet>
+        <servlet-name>Result1</servlet-name>
+        <servlet-class>Result1</servlet-class>
+    </servlet>	
+	
+	<servlet-mapping>
+        <servlet-name>Result1</servlet-name>
+        <url-pattern>/R1</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+        <servlet-name>register</servlet-name>
+        <servlet-class>Registration</servlet-class>
+    </servlet>	
+	
+	<servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/Registration</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>loginResponse</servlet-class>
+    </servlet>	
+	
+	<servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/loginResponse</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

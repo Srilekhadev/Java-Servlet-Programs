@@ -1,0 +1,99 @@
+.black-heading-txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+.black-slogan-txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.black-normal-txt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+.navigation_text {font-size: 14px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif;}
+.very_light_gray {
+	color: #CCCCCC;
+	font-size: 11px;
+	font-family: Tahoma;
+}
+.orange_bold_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #DD3C05;
+	font-size: 14px;
+}
+.gray_bold_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #44444E;
+}
+.black_bold_tixt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.light_gray_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+.small_bold_orange_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #DD3C05;
+	font-weight: bold;
+}
+.bold_sky_text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #0A7CA1; }
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #DB3C02;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+.gray_link:link {
+	color: #cccccc;
+	text-decoration: none;
+}
+.gray_link:visited {
+	text-decoration: none;
+	color: #cccccc;
+}
+.gray_link:hover {
+	text-decoration: none;
+	color: #FFFF00;
+}
+.gray_link:active {
+	text-decoration: none;
+	color: #000000;
+}
+.light_gray_link:link {
+	color: #404040;
+	text-decoration: none;
+}
+.light_gray_link:visited {
+	text-decoration: none;
+	color: #404040;
+}
+.light_gray_link:hover {
+	text-decoration: none;
+	color: #DC3C02;
+}
+.light_gray_link:active {
+	text-decoration: none;
+	color: #000000;
+}
+body {
+	background-color: #44444E;
+}

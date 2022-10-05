@@ -1,0 +1,66 @@
+.transMenu {
+	LEFT: -1000px; OVERFLOW: hidden; POSITION: absolute; TOP: -1000px
+}
+.transMenu .content {
+	POSITION: absolute
+}
+.transMenu .items {
+	Z-INDEX: 2; LEFT: 0px; TEXT-INDENT: 5px; POSITION: relative; TOP: 0px
+}
+.top .items {
+	BORDER-TOP-STYLE: none
+}
+.transMenu .item {
+	BORDER-RIGHT: #000 1px dashed; DISPLAY: block; FONT-SIZE: 8px; MARGIN: 0px; BORDER-LEFT: #000 1px dashed; CURSOR: hand; COLOR: #ffffff; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #000 1px solid; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.transMenu .background {
+	Z-INDEX: 1; FILTER: alpha(opacity=80); LEFT: 0px; POSITION: absolute; TOP: 0px; moz-opacity: .8
+}
+.transMenu .shadowRight {
+	Z-INDEX: 3; FILTER: alpha(opacity=40); WIDTH: 0px; POSITION: absolute; TOP: 0px; moz-opacity: .4
+}
+.transMenu .shadowBottom {
+	Z-INDEX: 1; FILTER: alpha(opacity=40); LEFT: 0px; POSITION: absolute; HEIGHT: 0px; moz-opacity: .4
+}
+.transMenu .hover {
+	BACKGROUND: #ff0000
+}
+.transMenu .hover TD {
+	COLOR: #fff
+}
+.transMenu .item IMG {
+	MARGIN-LEFT: 10px
+}
+.transMenu .item#active {
+	BACKGROUND: #ff0000; COLOR: black
+}
+.transMenu .hover#active {
+	BACKGROUND: #ff0000
+}
+.transMenu .item TD {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+#wrap {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#menu {
+	
+}
+A.mainlevel-trans:link {
+	PADDING-RIGHT: 24px; DISPLAY: block; PADDING-LEFT: 23px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #fff 1px solid; COLOR: #fff; LINE-HEIGHT: 26px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Helvetica, sans-serif; WHITE-SPACE: nowrap; HEIGHT: 26px; BACKGROUND-COLOR: #000; TEXT-DECORATION: none
+}
+A.mainlevel-trans:visited {
+	PADDING-RIGHT: 24px; DISPLAY: block; PADDING-LEFT: 23px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #fff 1px solid; COLOR: #fff; LINE-HEIGHT: 26px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Helvetica, sans-serif; WHITE-SPACE: nowrap; HEIGHT: 26px; BACKGROUND-COLOR: #000; TEXT-DECORATION: none
+}
+A.mainlevel-trans:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #ff0000
+}
+A.mainlevel_active-trans {
+	PADDING-RIGHT: 24px; DISPLAY: block; PADDING-LEFT: 23px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #fff 1px solid; WIDTH: auto; COLOR: #fff; LINE-HEIGHT: 26px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Helvetica, sans-serif; WHITE-SPACE: nowrap; HEIGHT: 26px; BACKGROUND-COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.mainlevel_active-trans:visited {
+	PADDING-RIGHT: 24px; DISPLAY: block; PADDING-LEFT: 23px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #fff 1px solid; WIDTH: auto; COLOR: #fff; LINE-HEIGHT: 26px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Helvetica, sans-serif; WHITE-SPACE: nowrap; HEIGHT: 26px; BACKGROUND-COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.mainlevel_active-trans:hover {
+	COLOR: #fff
+}
