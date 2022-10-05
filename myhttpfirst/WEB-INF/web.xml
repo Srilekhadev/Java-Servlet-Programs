@@ -1,0 +1,12 @@
+<web-app>
+ <servlet>
+  <servlet-class>myhttpfirst</servlet-class>
+ <servlet-name>dev</servlet-name>
+</servlet>
+
+<servlet-mapping>
+ <servlet-name>dev</servlet-name>
+ <url-pattern>/second</url-pattern>
+</servlet-mapping>
+</web-app>
+ 

@@ -1,0 +1,19 @@
+<web-app>
+ <servlet>
+   <servlet-class>counter1</servlet-class>
+   <servlet-name>A</servlet-name>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>A</servlet-name>
+   <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+   <servlet-class>counter2</servlet-class>
+   <servlet-name>B</servlet-name>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>B</servlet-name>
+   <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,28 @@
+<web-app>
+ <servlet>
+   <servlet-class>menu</servlet-class>
+   <servlet-name>A</servlet-name>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>A</servlet-name>
+   <url-pattern>/mymenu</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+   <servlet-class>employee</servlet-class>
+   <servlet-name>B</servlet-name>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>B</servlet-name>
+   <url-pattern>/myemp</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+   <servlet-class>student</servlet-class>
+   <servlet-name>C</servlet-name>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>C</servlet-name>
+   <url-pattern>/mystud</url-pattern>
+  </servlet-mapping>
+</web-app>
