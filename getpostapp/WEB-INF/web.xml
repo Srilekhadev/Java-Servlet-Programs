@@ -1,0 +1,11 @@
+<web-app>
+ <servlet>
+   <servlet-class>getpost</servlet-class>
+   <servlet-name>abc</servlet-name>
+ </servlet>
+
+ <servlet-mapping>
+   <servlet-name>abc</servlet-name>
+   <url-pattern>/mygetpost</url-pattern>
+  </servlet-mapping>
+</web-app>

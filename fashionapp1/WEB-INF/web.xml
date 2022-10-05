@@ -1,0 +1,26 @@
+<web-app>
+   <servlet>
+        <servlet-class>fashion</servlet-class>
+        <servlet-name>A</servlet-name>
+   </servlet>
+   <servlet-mapping>
+        <servlet-name>A</servlet-name>
+        <url-pattern>/fashion1</url-pattern>
+   </servlet-mapping>
+   <servlet>
+        <servlet-class>major</servlet-class>
+        <servlet-name>B</servlet-name>
+   </servlet>
+   <servlet-mapping>
+         <servlet-name>B</servlet-name>
+         <url-pattern>/major1</url-pattern>
+   </servlet-mapping> 
+   <servlet>
+        <servlet-class>minor</servlet-class>
+        <servlet-name>C</servlet-name>
+   </servlet>
+   <servlet-mapping>
+         <servlet-name>C</servlet-name>
+         <url-pattern>/minor1</url-pattern>
+   </servlet-mapping> 
+</web-app>
